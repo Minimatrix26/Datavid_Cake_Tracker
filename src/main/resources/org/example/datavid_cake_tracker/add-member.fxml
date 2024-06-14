@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.datavid_cake_tracker.AddMemberController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label text="First Name"/>
+        <TextField fx:id="firstNameField"/>
+
+        <Label text="Last Name"/>
+        <TextField fx:id="lastNameField"/>
+
+        <Label text="Birth Date (YYYY-MM-DD)"/>
+        <TextField fx:id="birthDateField"/>
+
+        <Label text="Country"/>
+        <TextField fx:id="countryField"/>
+
+        <Label text="City"/>
+        <TextField fx:id="cityField"/>
+
+        <Button text="Add Member" onAction="#handleAddMember"/>
+    </children>
+
+</VBox>
